@@ -1,0 +1,36 @@
+.cards {
+    display: flex;
+}
+
+.home {
+    background-color: #040714;
+    height: 1920px;
+}
+
+.titulos-generos-home {
+    font-family: inter;
+    color: white;
+    margin-left: 2.5vw;
+    margin-bottom:3vh ;
+}
+
+.list-cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 3vh;
+}
+
+@media (max-width: 650px) {
+    .poster-img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .list-cards {
+        gap: 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,0 +1,10 @@
+.imagem-carrosel-responsive {
+    max-width: 50vh;
+    border-radius: 8px;
+}
+
+.alice-carousel__stage-item {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
